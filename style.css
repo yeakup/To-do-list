@@ -1,0 +1,45 @@
+/* Add a custom font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Set the font for the entire page */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Center the title and add a bottom margin */
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-top: 1rem;
+  }
+
+/* Add a background color and padding to the list items */
+.list-group-item {
+  background-color:     #f1f1f1;
+  padding: 1rem;
+}
+
+.list-group-item:hover {
+    background-color:     #f1f1f1c0;
+}
+
+/* Style the "done" button when clicked */
+.done-btn.active {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Style the "delete" button when clicked */
+.delete-btn.active {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Style the task text when "done" is clicked */
+.done {
+  text-decoration: line-through;
+}
+
